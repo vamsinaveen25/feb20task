@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 80px;
+            display: grid;
+            padding: 30px;
+
+                }
+                input:active ~.img1{
+                    transform: translateX(720px);
+                    transition-duration: 14s;
+                    transition-timing-function: ease; 
+
+                }
+                input:active ~.img2{
+                    transform: translateX(720px);
+                    transition-duration: 11s;
+                    transition-timing-function: ease;
+
+                }
+                input:active ~.img3{
+                    transform: translateX(720px);
+                    transition-duration: 7s;
+                    transition-timing-function: ease;
+
+                }
+                input:active ~.img4{
+                    transform: translateX(720px);
+                    transition-duration: 5s;
+                    transition-timing-function: ease;
+
+                }
+               
+
+    </style>
+</head>
+<body>
+    <input type="button" value="START"> 
+
+    <img class="img1" src="./man.jpeg"  >
+    <img class="img2" src="./cycle.png" >
+    <img class="img3" src="./tractor.png" >
+    <img class="img4" src="./lorry.jpeg" >
+</body>
+</html>
